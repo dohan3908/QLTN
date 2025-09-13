@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+
             this.SuspendLayout();
             // 
             // label1
@@ -40,11 +41,31 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "CHÀO MN ĐẾN VỚI NHÀ CỦA OANH";
             // 
+
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(215, 276);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(56, 16);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "hIHIHIHI";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(419, 156);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(193, 226);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "GIGIGI";
+            // 
             // OanhCHUCHE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+
             this.Controls.Add(this.label1);
             this.Name = "OanhCHUCHE";
             this.Text = "OanhCHUCHE";
