@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace QLTN
 {
-    public partial class Form1 : Form
+    public partial class OanhCHUCHE : Form
     {
-        public Form1()
+        public OanhCHUCHE()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
