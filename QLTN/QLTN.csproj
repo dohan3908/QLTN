@@ -33,8 +33,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Data.Desktop.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Drawing.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v24.1.Core, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v24.1.Core, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v24.1, Version=24.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,11 +68,53 @@
     <Compile Include="Chichanhchua.Designer.cs">
       <DependentUpon>Chichanhchua.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="fMain_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="fMain_Admin.Designer.cs">
+      <DependentUpon>fMain_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMain_GV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMain_GV.Designer.cs">
+      <DependentUpon>fMain_GV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMain_SV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMain_SV.Designer.cs">
+      <DependentUpon>fMain_SV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainAdmin.Designer.cs">
+      <DependentUpon>frmMainAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainGiangVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainGiangVien.Designer.cs">
+      <DependentUpon>frmMainGiangVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLGiangVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLGiangVien.Designer.cs">
+      <DependentUpon>frmQLGiangVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLSinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLSinhVien.Designer.cs">
+      <DependentUpon>frmQLSinhVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="OanhCHUCHE.cs">
       <SubType>Form</SubType>
@@ -78,12 +130,34 @@
     <EmbeddedResource Include="Chichanhchua.resx">
       <DependentUpon>Chichanhchua.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="fMain_Admin.resx">
+      <DependentUpon>fMain_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMain_GV.resx">
+      <DependentUpon>fMain_GV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMain_SV.resx">
+      <DependentUpon>fMain_SV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainAdmin.resx">
+      <DependentUpon>frmMainAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainGiangVien.resx">
+      <DependentUpon>frmMainGiangVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLGiangVien.resx">
+      <DependentUpon>frmQLGiangVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLSinhVien.resx">
+      <DependentUpon>frmQLSinhVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OanhCHUCHE.resx">
       <DependentUpon>OanhCHUCHE.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -92,6 +166,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -105,6 +180,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-light-blue-curve-background-blue-beauty-dynamic-wallpaper-with-wave-shapes-suitable-for-business-selling-banners-ads-events-templates-pages-webs-and-others-vector.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
