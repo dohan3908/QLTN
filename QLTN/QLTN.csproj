@@ -116,6 +116,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNhap.Designer.cs">
+      <DependentUpon>FrmNhap.cs</DependentUpon>
+    </Compile>
     <Compile Include="OanhCHUCHE.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNhap.resx">
+      <DependentUpon>FrmNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OanhCHUCHE.resx">
       <DependentUpon>OanhCHUCHE.cs</DependentUpon>
