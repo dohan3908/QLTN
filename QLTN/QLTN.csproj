@@ -52,6 +52,12 @@
     <Compile Include="chichanhchoe.Designer.cs">
       <DependentUpon>chichanhchoe.cs</DependentUpon>
     </Compile>
+    <Compile Include="Chichanhchua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chichanhchua.Designer.cs">
+      <DependentUpon>Chichanhchua.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     </Compile>
     <EmbeddedResource Include="chichanhchoe.resx">
       <DependentUpon>chichanhchoe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chichanhchua.resx">
+      <DependentUpon>Chichanhchua.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
