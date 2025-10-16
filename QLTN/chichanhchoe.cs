@@ -21,5 +21,10 @@ namespace QLTN
         {
 
         }
+
+        private void chichanhchoe_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
