@@ -43,11 +43,7 @@
             // 
 
             // label2
-            // 
-         
-            // groupBox1
-            // 
-            
+           
             // OanhCHUCHE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
