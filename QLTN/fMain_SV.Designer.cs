@@ -43,7 +43,6 @@
             this.lblHocPhan = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.txtNoiDungCauHoi = new System.Windows.Forms.TextBox();
-            this.lblCauSo = new System.Windows.Forms.Label();
             this.rdoOptionD = new System.Windows.Forms.RadioButton();
             this.rdoOptionC = new System.Windows.Forms.RadioButton();
             this.rdoOptionB = new System.Windows.Forms.RadioButton();
@@ -90,6 +89,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.txtCauHoiSo = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -231,8 +231,8 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.txtCauHoiSo);
             this.panel2.Controls.Add(this.txtNoiDungCauHoi);
-            this.panel2.Controls.Add(this.lblCauSo);
             this.panel2.Controls.Add(this.rdoOptionD);
             this.panel2.Controls.Add(this.rdoOptionC);
             this.panel2.Controls.Add(this.rdoOptionB);
@@ -249,16 +249,6 @@
             this.txtNoiDungCauHoi.Name = "txtNoiDungCauHoi";
             this.txtNoiDungCauHoi.Size = new System.Drawing.Size(595, 81);
             this.txtNoiDungCauHoi.TabIndex = 5;
-            // 
-            // lblCauSo
-            // 
-            this.lblCauSo.AutoSize = true;
-            this.lblCauSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCauSo.Location = new System.Drawing.Point(31, 32);
-            this.lblCauSo.Name = "lblCauSo";
-            this.lblCauSo.Size = new System.Drawing.Size(66, 29);
-            this.lblCauSo.TabIndex = 4;
-            this.lblCauSo.Text = "Câu:";
             // 
             // rdoOptionD
             // 
@@ -757,6 +747,15 @@
             this.label4.TabIndex = 1;
             this.label4.Text = "/30";
             // 
+            // txtCauHoiSo
+            // 
+            this.txtCauHoiSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCauHoiSo.Location = new System.Drawing.Point(36, 34);
+            this.txtCauHoiSo.Name = "txtCauHoiSo";
+            this.txtCauHoiSo.Size = new System.Drawing.Size(100, 35);
+            this.txtCauHoiSo.TabIndex = 6;
+            this.txtCauHoiSo.Text = "Câu:";
+            // 
             // fMain_SV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -804,7 +803,6 @@
         private System.Windows.Forms.RadioButton rdoOptionB;
         private System.Windows.Forms.RadioButton rdoOptionA;
         private System.Windows.Forms.TextBox txtNoiDungCauHoi;
-        private System.Windows.Forms.Label lblCauSo;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel4;
@@ -847,5 +845,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtCauHoiSo;
     }
 }
